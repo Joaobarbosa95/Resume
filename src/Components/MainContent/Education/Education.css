@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap");
+
+.education {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.education-item {
+  background: #2e2e48;
+  border-radius: 4px 0px 0px 4px;
+  padding: 20px;
+  flex-grow: 2;
+  max-width: fit-content;
+}
+
+.education-item > img {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.institution {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 8px;
+
+  color: #e2e6ee;
+
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  left: 10px;
+}
+
+.course {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 9px;
+
+  color: #e2e6ee;
+
+  margin-top: 5px;
+}
+
+.finished {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 7px;
+
+  color: #acb1c3;
+
+  margin-top: 5px;
+}

@@ -1,0 +1,36 @@
+.skill-description {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skill {
+  background: #2e2e48;
+  border-radius: 4px 0px 0px 0px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 9px;
+
+  padding: 20px;
+  text-align: center;
+
+  color: inherit;
+
+  width: fit-content;
+}
+
+.skill-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 9px;
+
+  color: #e2e6ee;
+
+  margin-bottom: 15px;
+}

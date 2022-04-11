@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lato:wght@400;700;900&display=swap");
+
+.languages {
+  margin-bottom: -20px;
+}
+
+.languages-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 12px;
+
+  letter-spacing: 0.01em;
+
+  color: #acb1c3;
+}

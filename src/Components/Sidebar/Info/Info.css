@@ -1,0 +1,4 @@
+.info {
+  /*Subtract the ContactInfo margin top/bottom, so the margin left is only the divider margin*/
+  margin: -20px 0;
+}

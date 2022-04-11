@@ -1,0 +1,15 @@
+.social {
+  margin-bottom: -20px;
+}
+
+.social-subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 12px;
+
+  letter-spacing: 0.01em;
+
+  color: #acb1c3;
+}

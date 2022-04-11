@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap");
+
+.header {
+  width: 100%;
+}
+
+.face-icon {
+  border-radius: 50%;
+  float: left;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.name {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+
+  letter-spacing: -0.02em;
+
+  color: #e2e6ee;
+}
+
+.description {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+
+  letter-spacing: 0.01em;
+
+  color: #a478e8;
+}
+
+.name,
+.description {
+  margin-top: 20px;
+  margin-left: 120px;
+}

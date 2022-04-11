@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500&display=swap");
+
+.company {
+  display: grid;
+  grid-template-columns: 10px 40% auto;
+}
+
+.time-line {
+  grid-column: 1;
+  margin-bottom: 23px;
+}
+
+.point {
+  border-radius: 25px;
+  background-color: #acb1c3;
+  width: 5px;
+  height: 5px;
+  position: relative;
+  right: 1.5px;
+}
+
+.line {
+  border: 1px #2e2e48 solid;
+  height: 100%;
+  width: 1px;
+  margin-top: 8px;
+}
+
+.company-info {
+  min-height: 90px;
+  margin-left: 10px;
+  grid-column: 2;
+}
+
+.date {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 8px;
+
+  color: #acb1c3;
+}
+
+.company-description {
+  margin: 14px 0;
+}
+
+.company-description > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  float: left;
+}
+
+.job-position {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #acb1c3;
+
+  margin-left: 55px;
+}
+
+.company-name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #e2e6ee;
+  margin-left: 55px;
+}
+
+.company-info {
+}
+
+.job-description {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #acb1c3;
+  padding: 20px;
+}

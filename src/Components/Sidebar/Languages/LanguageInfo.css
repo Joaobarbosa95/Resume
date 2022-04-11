@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lato:wght@400;700;900&display=swap");
+
+.language-container {
+  display: grid;
+  grid-template-columns: 30px auto;
+  margin: 20px 0px;
+}
+
+.flag-icon {
+  color: white;
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-icon > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.language-info {
+  margin-left: 10px;
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.language-data {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7em;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+
+  color: #acb1c3;
+
+  grid-row: 2;
+}
+
+.language-description {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 12px;
+
+  color: #d9dfe8;
+
+  grid-row: 1;
+
+  display: flex;
+  align-items: center;
+}

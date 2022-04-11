@@ -1,0 +1,22 @@
+/* Divider */
+.divider {
+  position: relative;
+  width: 100%;
+  margin: 16px 0px;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Inside auto layout */
+/* flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+/* divider */
+
+/* position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+box-sizing: border-box; */
